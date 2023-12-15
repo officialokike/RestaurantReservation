@@ -1,0 +1,80 @@
+/**
+  Font and Colors
+**/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+
+body {
+    background-color: #ECF0F1;
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+}
+
+/* Side bar spans height of page */
+.container-fluid .side-bar {
+    padding-bottom: 100%;
+  }
+
+.side-bar {
+    background-color: #2B2118;
+}
+.sidebar-brand-text {
+    color: #F8F8F4;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #aeb4bc;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: #2B2118;
+}
+
+h2 {
+    color: #2B2118;
+}
+
+.btn {
+    padding: 7px 15px 4px;
+}
+
+.form-control {
+    opacity: 0.85;
+    margin-bottom: 8px;
+    filter: drop-shadow(0.5px 0.5px 0.12rem #A8763E);
+}
+
+.form-label {
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.card {
+    background-color: #F8F8F4;
+}
+.card-header,
+.card-footer {
+    background-color: #F8F8F4;
+}
+
+.btn-group {
+    background-color: #6F1A07;
+    border-radius: 10px;
+}
+
+.badge {
+    background-color: #423E3B;
+    color: white;
+}
+
+@media (max-width: 45em) {
+    .container-fluid .side-bar {
+        height: 140px;
+        padding-bottom: 0px;
+    }
+}
