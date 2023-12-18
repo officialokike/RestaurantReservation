@@ -235,7 +235,6 @@ module.exports = {
     hasData,
     hasOnlyValidProperties,
     hasProperties("first_name", "last_name", "mobile_number", "reservation_date", "reservation_time", "people"),
-    isValidMobileNumber,
     hasValidDate,
     peopleIsNumber,
     hasValidTime,
